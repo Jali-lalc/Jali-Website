@@ -46,7 +46,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist
+          path: ./build/client
 
       - name: Deploy website
         id: deployment
