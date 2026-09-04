@@ -20,9 +20,9 @@ export default function Home() {
     <>
       <HeroSection
         slides={heroSlides}
-        eyebrow="Land Council"
-        heading="Your primary homepage message"
-        description="Add one concise sentence explaining the organisation and purpose of the website."
+        eyebrow="Welcome"
+        heading="Jingi Walla"
+        description="Learn more about Jali, our work and the services available to our community."
       />
 
       <IntroductionSection

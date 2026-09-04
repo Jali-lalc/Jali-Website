@@ -8,6 +8,7 @@ interface HeroSectionProps {
   readonly eyebrow?: string;
   readonly heading: string;
   readonly description?: string;
+  readonly seconddescription?: string;
   readonly intervalMs?: number;
 }
 
@@ -17,6 +18,7 @@ export function HeroSection({
   eyebrow,
   heading,
   description,
+  seconddescription,
   intervalMs = 6000,
 }: HeroSectionProps) {
   const slideshow = useSlideshow(
@@ -62,6 +64,12 @@ export function HeroSection({
           {description && (
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/85 sm:text-lg">
               {description}
+            </p>
+          )}
+
+          {seconddescription && (
+            <p className="mt-5 max-w-2xl text-base leading-7 text-white/85 sm:text-lg">
+              {seconddescription}
             </p>
           )}
         </div>

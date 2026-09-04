@@ -47,16 +47,29 @@ export function SiteHeader({
         <Link
           to="/"
           className="
-            inline-flex shrink-0 items-center
-            rounded-sm py-3
-            focus-visible:outline-none
-            focus-visible:ring-2
-            focus-visible:ring-current
-            focus-visible:ring-offset-4
-            focus-visible:ring-offset-transparent
+                inline-flex
+    size-18 sm:size-18 lg:size-18
+    shrink-0
+    items-center justify-center
+    rounded-full
+    bg-white/75
+    p-2
+    shadow-md
+    ring-1 ring-white/40
+    backdrop-blur-md
+    transition-colors
+    hover:bg-white/90
+    focus-visible:outline-none
+    focus-visible:ring-2
+    focus-visible:ring-white
           "
         >
-          <span
+            <img
+              src="/public/images/brand/JaliLogo.webp"
+              alt=""
+              className="h-12 w-auto object-contain sm:h-14"
+            />
+          {/* <span
             className="
               text-sm font-semibold uppercase
               tracking-[0.16em]
@@ -64,7 +77,7 @@ export function SiteHeader({
             "
           >
             Organisation Name
-          </span>
+          </span> */}
 
           <span className="sr-only">
             {" "}

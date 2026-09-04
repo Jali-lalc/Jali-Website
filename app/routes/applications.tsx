@@ -22,7 +22,8 @@ export default function ApplicationsPage() {
         <PageHeader
         eyebrow="Documents"
         heading="Applications and forms"
-        description="Download the application forms and read the instructions provided for each application."
+        description="Download and complete the application form/s for your intended purpose." 
+        secondarydescription="Submit via the appropriate email on the contact page."
         />
 
       {/* Create one reusable section for each application. */}

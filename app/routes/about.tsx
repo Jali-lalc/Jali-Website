@@ -23,7 +23,7 @@ export default function About() {
         slides={aboutHeroSlides}
         eyebrow="About us"
         heading="Our organisation and community"
-        description="A brief introduction to the organisation, its responsibilities and the community it serves."
+        description="Get to know our organisation, the responsibilities we carry and how we work alongside our community."
       />
 
       <IntroductionSection
@@ -100,6 +100,13 @@ export default function About() {
                 "Culturally Safe Housing: We manage a portfolio of secure, affordable community housing options, providing local Aboriginal families with stable homes.",
                 "Elder & Aged Care: We honour our Elders as the keepers of our culture by providing respectful, flexible in-home care, transport, and social support that helps them live safely and independently.",
         ]}
+        
+        image={{
+        src: "/public/images/brand/JaliLogo.webp",
+        alt: "Jali logo",
+        fit: "contain",
+        objectPosition: "object-center",
+        }}
     />
     </>
   );

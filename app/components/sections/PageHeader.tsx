@@ -9,12 +9,18 @@ interface PageHeaderProps {
 
   // Optional introductory description.
   readonly description?: string;
+
+    // Optional introductory secondary description.
+  readonly secondarydescription?: string;
+
 }
+
 
 export function PageHeader({
   eyebrow,
   heading,
   description,
+  secondarydescription,
 }: PageHeaderProps) {
   const headingId = useId();
 
@@ -42,6 +48,13 @@ export function PageHeader({
             {description}
           </p>
         )}
+
+        {secondarydescription && (
+          <p className="mt-5 max-w-2xl text-base leading-7 text-white/80 sm:text-lg">
+            {secondarydescription}
+          </p>
+        )}
+
       </div>
     </header>
   );

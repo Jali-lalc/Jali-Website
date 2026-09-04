@@ -20,9 +20,10 @@ export default function ContactPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Contact"
+        eyebrow="Contacts"
         heading="Contact us"
         description="Use the contact details below to reach the appropriate service or speak with the organisation."
+        secondarydescription="We welcome enquiries from collaborators, philanthropic organisations and donors who would like to support our work and create positive outcomes for our community."
       />
 
       {contactSections.map((section) => (
