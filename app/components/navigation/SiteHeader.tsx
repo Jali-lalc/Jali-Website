@@ -65,7 +65,7 @@ export function SiteHeader({
           "
         >
             <img
-              src="/public/images/brand/JaliLogo.webp"
+              src="/images/brand/JaliLogo.webp"
               alt=""
               className="h-12 w-auto object-contain sm:h-14"
             />

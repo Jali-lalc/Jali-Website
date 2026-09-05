@@ -40,7 +40,7 @@ export const heroSlides = [
     placeholderLabel: "Photo placeholder three",
 
     image: {
-      src: "/public/images/hero/Bingal1.webp",
+      src: "/images/hero/Bingal1.webp",
       alt: "",
       objectPosition: "object-center",
     },

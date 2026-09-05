@@ -61,7 +61,7 @@ export default function About() {
 
         ]}
         image={{
-            src: "/public/images/brand/Ngunya Jargoon IPA - Primary logo.webp",
+            src: "/images/brand/Ngunya Jargoon IPA - Primary logo.webp",
             alt: "Ngunya Jargoon IPA official logo",
             objectPosition: "object-cover",
         }}
@@ -85,7 +85,7 @@ export default function About() {
 
         ]}
         image={{
-        src: "/public/images/brand/Primary logo - light.webp",
+        src: "/images/brand/Primary logo - light.webp",
         alt: "Nyangbul Land and Sea Ranger logo",
         fit: "contain",
         objectPosition: "object-center",
@@ -102,7 +102,7 @@ export default function About() {
         ]}
         
         image={{
-        src: "/public/images/brand/JaliLogo.webp",
+        src: "/images/brand/JaliLogo.webp",
         alt: "Jali logo",
         fit: "contain",
         objectPosition: "object-center",

@@ -12,7 +12,7 @@ export const aboutHeroSlides = [
 
     image: {
       // Do not include "public" in the browser path.
-      src: "/public/images/content/Ranger1.webp",
+      src: "/images/content/Ranger1.webp",
 
       // Use an empty string if the photograph is decorative.
       alt: "",
@@ -27,7 +27,7 @@ export const aboutHeroSlides = [
     placeholderLabel: "About photo placeholder two",
 
     image: {
-      src: "/public/images/content/7.1.webp",
+      src: "/images/content/7.1.webp",
       alt: "",
       objectPosition: "object-center",
     },
@@ -38,7 +38,7 @@ export const aboutHeroSlides = [
     placeholderLabel: "About photo placeholder three",
 
     image: {
-      src: "/public/images/content/NorthCreek1.webp",
+      src: "/images/content/NorthCreek1.webp",
       alt: "",
       objectPosition: "object-center",
     },
