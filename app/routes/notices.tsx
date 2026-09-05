@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "View current notices and community information from [Organisation Name].",
+        "View current notices and community information from Jali LALC.",
     },
   ];
 }
@@ -29,7 +29,7 @@ export default function NoticesPage() {
         notices={notices}
         emptyState={{
           imageSrc:
-            "/public/images/notices/STAYPOSTED.webp",
+            "/images/notices/STAYPOSTED.webp",
 
           heading: "There are currently no notices",
 

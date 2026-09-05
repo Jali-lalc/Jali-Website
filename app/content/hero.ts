@@ -14,7 +14,7 @@ export const heroSlides = [
     image: {
       // Files inside public/ are referenced from the root "/".
       // Do not include "public" in this path.
-      src: "/public/images/hero/PaperBark1.webp",
+      src: "/images/hero/PaperBark1.webp",
 
       // Use an empty alt when the image is purely decorative.
       alt: "",
@@ -29,7 +29,7 @@ export const heroSlides = [
     placeholderLabel: "Photo placeholder two",
 
     image: {
-      src: "/public/images/hero/GumTrees1.webp",
+      src: "/images/hero/GumTrees1.webp",
       alt: "",
       objectPosition: "object-center",
     },
