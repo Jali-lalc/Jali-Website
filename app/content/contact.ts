@@ -1,10 +1,10 @@
 export const contactSections = [
   {
-    id: "services",
+    id: "general-enquiries",
 
-    eyebrow: "Services",
+    eyebrow: "Contact us",
 
-    heading: "Service enquiries",
+    heading: "General enquiries",
 
     paragraphs: [
       "For enquiries about our services, contact the organisation using the email address or telephone number provided.",
@@ -13,24 +13,24 @@ export const contactSections = [
     contactMethods: [
       {
         label: "Email",
-        value: "[Services email address]",
-        href: "mailto:services@example.com.au",
+        value: "Reception",
+        href: "mailto:reception@jalilalc.com.au",
       },
       {
-        label: "Phone",
-        value: "[Services phone number]",
-        href: "tel:+61000000000",
+        label: "(02) 6686 7055",
+        value: "Reception phone number]",
+        href: "tel:+61266860755",
       },
     ],
 
     tone: "white",
   },
   {
-    id: "general-enquiries",
+    id: "services",
 
-    eyebrow: "Contact us",
+    eyebrow: "Services",
 
-    heading: "General enquiries",
+    heading: "Service enquiries",
 
     paragraphs: [
       "For general questions or assistance finding the correct service, contact the main office using the details provided.",
@@ -39,14 +39,17 @@ export const contactSections = [
     contactMethods: [
       {
         label: "Email",
-        value: "[General enquiries email address]",
-        href: "mailto:contact@example.com.au",
+        value: "Services enquiries email address",
+        href: "mailto:businesssupport@jalilalc.com.au",
       },
-      {
-        label: "Phone",
-        value: "[General enquiries phone number]",
-        href: "tel:+61000000000",
-      },
+      // {
+      //   label: "Phone",
+      //   value: "Services enquiries phone number",
+      //   // Telephone
+      //   href: "tel:+61266860000",
+      //   // Mobile
+      //   // href: "tel:+61000000000",
+      // },
     ],
 
     tone: "soft",
