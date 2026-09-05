@@ -7,18 +7,18 @@ export const contactSections = [
     heading: "General enquiries",
 
     paragraphs: [
-      "For enquiries about our services, contact the organisation using the email address or telephone number provided.",
+      "For general questions or assistance finding the correct service, contact the main office using the details provided.",
     ],
 
     contactMethods: [
       {
         label: "Email",
-        value: "Reception",
+        value: "reception@jalilalc.com.au",
         href: "mailto:reception@jalilalc.com.au",
       },
       {
         label: "(02) 6686 7055",
-        value: "Reception phone number]",
+        value: "(02) 6686 7055",
         href: "tel:+61266860755",
       },
     ],
@@ -33,13 +33,13 @@ export const contactSections = [
     heading: "Service enquiries",
 
     paragraphs: [
-      "For general questions or assistance finding the correct service, contact the main office using the details provided.",
+      "For enquiries about our services, contact the organisation using the email address or telephone number provided.",
     ],
 
     contactMethods: [
       {
         label: "Email",
-        value: "Services enquiries email address",
+        value: "businesssupport@jalilalc.com.au",
         href: "mailto:businesssupport@jalilalc.com.au",
       },
       // {
