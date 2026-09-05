@@ -29,7 +29,7 @@ export const navigationItems = [
 
 export const socialMediaItems = [
     {
-        label: "Facebook",
+        label: "Jali LALC Facebook",
         to: "https://www.facebook.com/JaliLALC2478/",
     },
 
