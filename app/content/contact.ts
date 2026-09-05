@@ -17,7 +17,7 @@ export const contactSections = [
         href: "mailto:reception@jalilalc.com.au",
       },
       {
-        label: "(02) 6686 7055",
+        label: "Phone",
         value: "(02) 6686 7055",
         href: "tel:+61266860755",
       },
