@@ -32,8 +32,14 @@ export const socialMediaItems = [
         label: "Facebook",
         to: "https://www.facebook.com/JaliLALC2478/",
     },
+
     {
-        label: "Instagram",
+        label: "Jali LALC Instagram",
+        to:"https://www.instagram.com/jalilocalaborginallandcouncil/"
+    },
+
+    {
+        label: "Rangers Instagram",
         to: "https://www.instagram.com/nyangbul_land_and_sea_rangers/",
     },
 ] satisfies readonly SocialMediaLinks[];

@@ -7,11 +7,11 @@ import { contactSections } from "~/content/contact";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Contact | [Organisation Name]" },
+    { title: "Contact | Jali LALC" },
     {
       name: "description",
       content:
-        "Contact [Organisation Name] for service and general enquiries.",
+        "Contact Jali LALC for service and general enquiries.",
     },
   ];
 }

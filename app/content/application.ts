@@ -18,7 +18,7 @@ export const applicationSections = [
       description:
         "Download the current membership application form.",
       downloadName: "membership-application.pdf",
-      fileSize: "Add file size",
+      // fileSize: "Add file size",
     },
 
     tone: "white",
@@ -42,7 +42,7 @@ export const applicationSections = [
       description:
         "Download the current housing application form.",
       downloadName: "housing-application.pdf",
-      fileSize: "Add file size",
+      // fileSize: "Add file size",
     },
 
     tone: "soft",
@@ -68,7 +68,7 @@ export const applicationSections = [
         "Download the current cultural heritage application form.",
       downloadName:
         "cultural-heritage-application.pdf",
-      fileSize: "Add file size",
+      // fileSize: "Add file size",
     },
 
     tone: "warm",
